@@ -4,7 +4,10 @@
 
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    String helloWorld = "Hello World";
+    for(int i=0; i<helloWorld.length(); i++){
+      System.out.println(helloWorld.charAt(i));
+    }
   }
 
   // @Test
